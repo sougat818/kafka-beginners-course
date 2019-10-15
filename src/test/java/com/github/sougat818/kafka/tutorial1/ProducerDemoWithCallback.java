@@ -10,9 +10,9 @@ import org.slf4j.LoggerFactory;
 import java.util.Properties;
 
 
-public class ProducerDemoWithDemo {
+public class ProducerDemoWithCallback {
 
-    private final static Logger logger = LoggerFactory.getLogger(ProducerDemoWithDemo.class);
+    private final static Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
 
     public static void main(String[] args) {
         // create Producer properties
