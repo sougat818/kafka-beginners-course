@@ -8,13 +8,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 
-public class ProducerDemoWithCallback {
+public class ProducerDemoKeys {
 
-    private final static Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+    private final static Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         // create Producer properties
         Properties properties = new Properties();
         properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:29092");
@@ -26,15 +27,18 @@ public class ProducerDemoWithCallback {
 
         for (int i = 0; i < 10; i++) {
             // create producer record
-            ProducerRecord<String, String> record = new ProducerRecord<>("first_topic", "hello world " + i);
+            ProducerRecord<String, String> record = new ProducerRecord<>("first_topic", "key_" + i, "hello world " + i);
+
+            String message = "hello world " + i;
+
             //send data
             producer.send(record, (recordMetadata, e) -> {
                 if (e != null) {
                     logger.error("Exception while sending message", e);
                 } else {
-                    logger.info("Message sent to Offset: {} Partition {} Topic {} TimeStamp {}", recordMetadata.offset(), recordMetadata.partition(), recordMetadata.topic(), recordMetadata.timestamp());
+                    logger.info("Message {} sent to Offset: {} Partition {} Topic {} TimeStamp {}", message , recordMetadata.offset(), recordMetadata.partition(), recordMetadata.topic(), recordMetadata.timestamp());
                 }
-            });
+            }).get();
         }
 
         //flush and close producer

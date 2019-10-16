@@ -20,3 +20,7 @@ This will send "hello world" messages to kafka, which will appear in the console
 ## Run ProducerDemoWithCallback
 
 This will send 10 numbered "hello world" messages to kafka, Also prints detailed logs 
+
+## Run ProducerDemoKeys
+
+This will send 10 numbered "hello world" messages to kafka, But they will always go to the same partition for multiple runs of the program
