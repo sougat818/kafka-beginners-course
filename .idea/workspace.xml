@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f75f323-8ab1-4344-bae8-0ec9cb772d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/sougat818/kafka/tutorial1/ProducerDemoWithDemo.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoWithCallback">
+  <component name="RunManager" selected="Application.ProducerDemoKeys">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ConsumerDemo" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.sougat818.kafka.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ProducerDemo" />
       <module name="kafka-beginners-course" />
@@ -106,9 +114,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemoKeys" />
+        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemo" />
+        <item itemvalue="Application.ProducerDemoWithCallback" />
       </list>
     </recent_temporary>
   </component>
