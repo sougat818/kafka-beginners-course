@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f75f323-8ab1-4344-bae8-0ec9cb772d29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorial1/ProducerDemoKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/sougat818/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorial1/ProducerDemoWithCallback.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +40,7 @@
   <component name="ProjectId" id="1SDs4ErlyBRPXQO5VT22tOOmm3u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -41,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tutorial1" />
       <recent name="com.github.sougat818.kafka.tutorial1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -59,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoKeys">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ConsumerDemo" />
+  <component name="RunManager" selected="Application.ProducerDemoWithCallback">
+    <configuration name="ConsumerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial1.ConsumerDemo" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.sougat818.kafka.tutorial1.*" />
+          <option name="PATTERN" value="tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ProducerDemo" />
+    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial1.ConsumerDemoGroups" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.sougat818.kafka.tutorial1.*" />
+          <option name="PATTERN" value="tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ProducerDemoKeys" />
+    <configuration name="ProducerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial1.ProducerDemo" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.sougat818.kafka.tutorial1.*" />
+          <option name="PATTERN" value="tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoKeys (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorial1.ProducerDemoKeys" />
+      <module name="kafka-beginners-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="ProducerDemoWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.sougat818.kafka.tutorial1.ProducerDemoWithCallback" />
+      <option name="MAIN_CLASS_NAME" value="tutorial1.ProducerDemoWithCallback" />
       <module name="kafka-beginners-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.sougat818.kafka.tutorial1.*" />
+          <option name="PATTERN" value="tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
+        <item itemvalue="Application.ConsumerDemoGroups" />
+        <item itemvalue="Application.ProducerDemoKeys (1)" />
+        <item itemvalue="Application.ProducerDemo (1)" />
+        <item itemvalue="Application.ConsumerDemo (1)" />
       </list>
     </recent_temporary>
   </component>

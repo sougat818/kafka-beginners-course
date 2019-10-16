@@ -1,14 +1,10 @@
-package com.github.sougat818.kafka.tutorial1;
+package tutorial1;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
-import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,11 +12,11 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
 
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class);
 
         // create Consumer properties
         Properties properties = new Properties();
